@@ -1,0 +1,6 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": { "types": ["jest"], "rootDir": "..", "noEmit": true },
+	"references": [{ "name": "tslib", "path": ".." }],
+	"include": ["src", "tests"]
+}
